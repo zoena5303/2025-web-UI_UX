@@ -1,6 +1,70 @@
-h1{
-    color:pink;
-    font-size: 36px;
-    background-color: aliceblue;
-    
+body {
+  font-family: 'Quicksand', 'Zen Maru Gothic', sans-serif;
+  background-color: #FFF8F0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #F48FB1;
+}
+
+header.hero {
+  background-color: #FFE0EC;
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom: 4px dashed #F8BBD0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.portfolio ul {
+  list-style: none;
+  padding: 0;
+}
+
+.portfolio li {
+  background-color: #FFEBEE;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(248, 187, 208, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.portfolio li:hover {
+  transform: scale(1.03);
+}
+
+a {
+  color: #FF4081;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #FFE0EC;
+  color: #888;
+  font-size: 0.9rem;
+  border-top: 4px dotted #F8BBD0;
 }
